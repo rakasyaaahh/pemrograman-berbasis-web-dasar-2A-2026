@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Desa Sidorejo — Profil Desa</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: { sans: ['Inter', 'sans-serif'] },
+          colors: {
+            desa: {
+              50:  '#f0fdf4',
+              100: '#dcfce7',
+              200: '#bbf7d0',
+              300: '#86efac',
+              400: '#4ade80',
+              500: '#22c55e',
+              600: '#16a34a',
+              700: '#15803d',
+              800: '#166534',
+              900: '#14532d',
+            }
+          }
+        }
+      }
+    }
+  </script>
+</head>
+
+<body class="bg-gray-50 text-gray-700 font-sans">
+
+  <nav class="bg-white border-b border-gray-200 sticky top-0 z-50 shadow-sm">
+    <div class="max-w-4xl mx-auto px-4 h-14 flex items-center justify-between">
+      <div class="flex items-center gap-2.5">
+        <div class="w-9 h-9 rounded-full bg-desa-700 flex items-center justify-center text-white text-[10px] font-bold">SID</div>
+        <div>
+          <p class="text-sm font-bold text-desa-800 leading-tight">Desa Sidorejo</p>
+          <p class="text-[10px] text-gray-400">Kec. Krian, Sidoarjo</p>
+        </div>
+      </div>
+      <div class="hidden sm:flex items-center gap-1">
+        <a href="#profil" class="px-3 py-1.5 rounded-lg text-[12px] font-medium text-desa-700 bg-desa-50 no-underline">Profil</a>
+        <a href="#pemerintahan" class="px-3 py-1.5 rounded-lg text-[12px] text-gray-500 hover:text-desa-700 no-underline">Pemerintahan</a>
+        <a href="#data" class="px-3 py-1.5 rounded-lg text-[12px] text-gray-500 hover:text-desa-700 no-underline">Data</a>
+        <a href="#berita" class="px-3 py-1.5 rounded-lg text-[12px] text-gray-500 hover:text-desa-700 no-underline">Berita</a>
+        <a href="#galeri" class="px-3 py-1.5 rounded-lg text-[12px] text-gray-500 hover:text-desa-700 no-underline">Galeri</a>
+      </div>
+    </div>
+  </nav>
+
+
+  <main class="max-w-4xl mx-auto px-4 py-10">
+    <section class="mb-14">
+      <div class="relative rounded-2xl overflow-hidden h-[260px] sm:h-[340px]">
+        <img src="https://sidorejo-krian.desa.id/wp-content/uploads/2022/08/BALDES-RUMPUT.jpg" alt="Desa Sidorejo" class="w-full h-full object-cover">
+        <div class="absolute inset-0 bg-gradient-to-r from-desa-900/80 to-desa-900/20"></div>
+        <div class="absolute inset-0 flex flex-col justify-center px-8 sm:px-12">
+          <p class="text-desa-300 text-[10px] uppercase tracking-widest mb-2">Selamat Datang di</p>
+          <h1 class="text-3xl sm:text-4xl font-extrabold text-white leading-tight mb-2">Desa Sidorejo</h1>
+          <p class="text-[13px] text-white/70 max-w-sm">Kecamatan Sidorejo, Kabupaten Jember, Jawa Timur</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="profil" class="mb-14">
+      <h2 class="text-base font-bold text-gray-800 mb-0.5">Profil Desa</h2>
+      <div class="w-10 h-1 bg-desa-500 rounded-full mb-5"></div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+        <div class="bg-white rounded-xl border border-gray-200 p-5">
+          <h3 class="text-[13px] font-semibold text-gray-800 mb-2">Sejarah Singkat</h3>
+          <p class="text-[12px] text-gray-600 leading-relaxed">
+            Desa Sidorejo berdiri pada tahun 1965. Nama "Sidorejo" berasal dari bahasa Jawa yang berarti "tempat yang sejahtera". Mata pencaharian utama warga adalah pertanian dan perdagangan.
+          </p>
+        </div>
+        <div class="bg-white rounded-xl border border-gray-200 p-5">
+          <h3 class="text-[13px] font-semibold text-gray-800 mb-2">Visi</h3>
+          <p class="text-[12px] text-gray-600 leading-relaxed mb-3">
+            Terwujudnya Desa Sidorejo yang maju, mandiri, dan sejahtera melalui pelayanan prima kepada masyarakat.
+          </p>
+          <h3 class="text-[13px] font-semibold text-gray-800 mb-1.5">Misi</h3>
+          <ul class="text-[12px] text-gray-600 leading-relaxed space-y-1 list-disc list-inside">
+            <li>Meningkatkan pelayanan publik</li>
+            <li>Mengembangkan potensi desa</li>
+            <li>Membangun infrastruktur desa</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="pemerintahan" class="mb-14">
+      <h2 class="text-base font-bold text-gray-800 mb-0.5">Pemerintahan Desa</h2>
+      <div class="w-10 h-1 bg-desa-500 rounded-full mb-5"></div>
+
+      <div class="grid grid-cols-3 sm:grid-cols-5 gap-3">
+        <div class="text-center bg-white rounded-xl border border-gray-200 p-4">
+          <div class="w-16 h-16 rounded-full bg-gray-200 mx-auto mb-2 overflow-hidden">
+            <img src="https://gempollegundi-gudo.jombangkab.go.id/assets/konten/KTN-2025-0000461_3517030017_20250724093007.jpg" alt="" class="w-full h-full object-cover">
+          </div>
+          <p class="text-[11px] font-semibold text-gray-800">H. Ahmad Fauzi</p>
+          <p class="text-[9px] text-desa-600 font-medium">Kepala Desa</p>
+        </div>
+        <div class="text-center bg-white rounded-xl border border-gray-200 p-4">
+          <div class="w-16 h-16 rounded-full bg-gray-200 mx-auto mb-2 overflow-hidden">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLt5UJYPz6t1CiBUwaq935FoWscpGLSHcacQ&s" alt="" class="w-full h-full object-cover">
+          </div>
+          <p class="text-[11px] font-semibold text-gray-800">Budi Santoso</p>
+          <p class="text-[9px] text-gray-500">Sekretaris</p>
+        </div>
+        <div class="text-center bg-white rounded-xl border border-gray-200 p-4">
+          <div class="w-16 h-16 rounded-full bg-gray-200 mx-auto mb-2 overflow-hidden">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNG6n-llLy8gmYRMowL-EMtQRlzstqT_Ds1Q&s" alt="" class="w-full h-full object-cover">
+          </div>
+          <p class="text-[11px] font-semibold text-gray-800">Siti Aminah</p>
+          <p class="text-[9px] text-gray-500">Kaur Keuangan</p>
+        </div>
+        <div class="text-center bg-white rounded-xl border border-gray-200 p-4">
+          <div class="w-16 h-16 rounded-full bg-gray-200 mx-auto mb-2 overflow-hidden">
+            <img src="https://sumbersari-rowokangkung.lumajangkab.go.id/files/perangkat/WhatsApp_Image_2021-01-14_at_09_53_43.jpeg" alt="" class="w-full h-full object-cover">
+          </div>
+          <p class="text-[11px] font-semibold text-gray-800">M. Rizki</p>
+          <p class="text-[9px] text-gray-500">Kasi Pelayanan</p>
+        </div>
+        <div class="text-center bg-white rounded-xl border border-gray-200 p-4 hidden sm:block">
+          <div class="w-16 h-16 rounded-full bg-gray-200 mx-auto mb-2 overflow-hidden">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6rehNivkQ73cfqItggGSWcV2vHTlo8WqGiw&s" alt="" class="w-full h-full object-cover">
+          </div>
+          <p class="text-[11px] font-semibold text-gray-800">Dewi Rahayu</p>
+          <p class="text-[9px] text-gray-500">Kaur TU</p>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- DATA DESA -->
+    <section id="data" class="mb-14">
+      <h2 class="text-base font-bold text-gray-800 mb-0.5">Data Desa</h2>
+      <div class="w-10 h-1 bg-desa-500 rounded-full mb-5"></div>
+
+      <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-5">
+        <div class="bg-white rounded-xl border border-gray-200 p-4 text-center">
+          <p class="text-xl font-bold text-gray-800">4.456</p>
+          <p class="text-[10px] text-gray-500">Penduduk</p>
+        </div>
+        <div class="bg-white rounded-xl border border-gray-200 p-4 text-center">
+          <p class="text-xl font-bold text-gray-800">1.423</p>
+          <p class="text-[10px] text-gray-500">Kepala Keluarga</p>
+        </div>
+        <div class="bg-white rounded-xl border border-gray-200 p-4 text-center">
+          <p class="text-xl font-bold text-gray-800">1.628</p>
+          <p class="text-[10px] text-gray-500">Rumah Tangga</p>
+        </div>
+        <div class="bg-white rounded-xl border border-gray-200 p-4 text-center">
+          <p class="text-xl font-bold text-gray-800">589 Ha</p>
+          <p class="text-[10px] text-gray-500">Luas Wilayah</p>
+        </div>
+      </div>
+
+      <div class="bg-white rounded-xl border border-gray-200 overflow-hidden">
+        <div class="px-5 py-2.5 border-b border-gray-100 bg-gray-50">
+          <h3 class="text-[12px] font-semibold text-gray-800">Penduduk per Dusun</h3>
+        </div>
+        <table class="w-full text-[12px]">
+          <thead>
+            <tr class="border-b border-gray-100 text-gray-500">
+              <th class="text-left py-2.5 px-5 font-medium">Dusun</th>
+              <th class="text-center py-2.5 px-3 font-medium">Laki-laki</th>
+              <th class="text-center py-2.5 px-3 font-medium">Perempuan</th>
+              <th class="text-center py-2.5 px-3 font-medium">Total</th>
+            </tr>
+          </thead>
+          <tbody class="text-gray-600">
+            <tr class="border-b border-gray-50">
+              <td class="py-2.5 px-5">Dusun Sidorejo</td>
+              <td class="text-center py-2.5 px-3">856</td>
+              <td class="text-center py-2.5 px-3">892</td>
+              <td class="text-center py-2.5 px-3 font-medium text-gray-800">1.748</td>
+            </tr>
+            <tr class="border-b border-gray-50">
+              <td class="py-2.5 px-5">Dusun Mekar Sari</td>
+              <td class="text-center py-2.5 px-3">723</td>
+              <td class="text-center py-2.5 px-3">754</td>
+              <td class="text-center py-2.5 px-3 font-medium text-gray-800">1.477</td>
+            </tr>
+            <tr>
+              <td class="py-2.5 px-5 font-medium text-gray-800">Total</td>
+              <td class="text-center py-2.5 px-3 font-medium text-gray-800">1.579</td>
+              <td class="text-center py-2.5 px-3 font-medium text-gray-800">1.646</td>
+              <td class="text-center py-2.5 px-3 font-bold text-desa-700">3.225</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+
+    <!-- BERITA -->
+    <section id="berita" class="mb-14">
+      <h2 class="text-base font-bold text-gray-800 mb-0.5">Berita Desa</h2>
+      <div class="w-10 h-1 bg-desa-500 rounded-full mb-5"></div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+        <a href="#" class="group block bg-white rounded-xl border border-gray-200 overflow-hidden no-underline hover:shadow-sm transition-shadow">
+          <div class="overflow-hidden">
+            <img src="https://picsum.photos/seed/berita-desa-1/500/280.jpg" alt="" class="w-full h-36 object-cover group-hover:scale-105 transition-transform duration-500">
+          </div>
+          <div class="p-4">
+            <div class="flex items-center gap-2 mb-1.5">
+              <span class="text-[9px] font-medium text-desa-600 bg-desa-50 px-1.5 py-0.5 rounded">Pembangunan</span>
+              <span class="text-[9px] text-gray-400">12 Jan 2025</span>
+            </div>
+            <h3 class="text-[12px] font-semibold text-gray-800 group-hover:text-desa-700 transition-colors mb-1">Pembangunan Jalan Desa Tahap II Selesai</h3>
+            <p class="text-[11px] text-gray-500 leading-relaxed">Proyek pembangunan jalan desa telah rampung dan diresmikan oleh Kepala Desa.</p>
+          </div>
+        </a>
+
+        <a href="#" class="group block bg-white rounded-xl border border-gray-200 overflow-hidden no-underline hover:shadow-sm transition-shadow">
+          <div class="overflow-hidden">
+            <img src="https://picsum.photos/seed/berita-desa-2/500/280.jpg" alt="" class="w-full h-36 object-cover group-hover:scale-105 transition-transform duration-500">
+          </div>
+          <div class="p-4">
+            <div class="flex items-center gap-2 mb-1.5">
+              <span class="text-[9px] font-medium text-blue-600 bg-blue-50 px-1.5 py-0.5 rounded">Kegiatan</span>
+              <span class="text-[9px] text-gray-400">8 Jan 2025</span>
+            </div>
+            <h3 class="text-[12px] font-semibold text-gray-800 group-hover:text-desa-700 transition-colors mb-1">Posyandu Rutin Bulan Januari</h3>
+            <p class="text-[11px] text-gray-500 leading-relaxed">Kegiatan Posyandu dilaksanakan dengan pemeriksaan kesehatan balita dan imunisasi.</p>
+          </div>
+        </a>
+
+        <a href="#" class="group block bg-white rounded-xl border border-gray-200 overflow-hidden no-underline hover:shadow-sm transition-shadow">
+          <div class="overflow-hidden">
+            <img src="https://picsum.photos/seed/berita-desa-3/500/280.jpg" alt="" class="w-full h-36 object-cover group-hover:scale-105 transition-transform duration-500">
+          </div>
+          <div class="p-4">
+            <div class="flex items-center gap-2 mb-1.5">
+              <span class="text-[9px] font-medium text-amber-600 bg-amber-50 px-1.5 py-0.5 rounded">Sosial</span>
+              <span class="text-[9px] text-gray-400">3 Jan 2025</span>
+            </div>
+            <h3 class="text-[12px] font-semibold text-gray-800 group-hover:text-desa-700 transition-colors mb-1">Bantuan PKH Disalurkan ke 120 KPM</h3>
+            <p class="text-[11px] text-gray-500 leading-relaxed">Bantuan PKH periode Januari disalurkan kepada keluarga penerima manfaat.</p>
+          </div>
+        </a>
+      </div>
+    </section>
+
+
+    <!-- GALERI -->
+    <section id="galeri" class="mb-10">
+      <h2 class="text-base font-bold text-gray-800 mb-0.5">Galeri Desa</h2>
+      <div class="w-10 h-1 bg-desa-500 rounded-full mb-5"></div>
+
+      <div class="grid grid-cols-2 sm:grid-cols-4 gap-3">
+        <div class="rounded-xl overflow-hidden aspect-[4/3]">
+          <img src="https://picsum.photos/seed/galeri-desa-1/400/300.jpg" alt="" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500">
+        </div>
+        <div class="rounded-xl overflow-hidden aspect-[4/3]">
+          <img src="https://picsum.photos/seed/galeri-desa-2/400/300.jpg" alt="" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500">
+        </div>
+        <div class="rounded-xl overflow-hidden aspect-[4/3]">
+          <img src="https://picsum.photos/seed/galeri-desa-3/400/300.jpg" alt="" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500">
+        </div>
+        <div class="rounded-xl overflow-hidden aspect-[4/3]">
+          <img src="https://picsum.photos/seed/galeri-desa-4/400/300.jpg" alt="" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500">
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+
+  <!-- FOOTER -->
+  <footer class="bg-desa-800 text-white">
+    <div class="max-w-4xl mx-auto px-4 py-6 flex flex-col sm:flex-row items-center justify-between gap-2">
+      <p class="text-[11px] text-desa-300">© 2025 Desa Sidorejo, Kabupaten Jember</p>
+      <p class="text-[11px] text-desa-400">Sistem Informasi Desa</p>
+    </div>
+  </footer>
+
+</body>
+</html>
